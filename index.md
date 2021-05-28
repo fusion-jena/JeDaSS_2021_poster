@@ -8,8 +8,9 @@ Welcome to the website of the **JeDaSS** poster @[ESWC_2021](https://2021.eswc-c
   
  * categorize a given dataset into a domain topic and,
  * extract hidden links between its data attributes and data attributes from other datasets
+ 
   <br/>
-  <img style="margin-left: auto; margin-right: auto; width: 60%" src="assets/summary.png">
+  <img style="margin-left: auto; margin-right: auto; width: 70%" src="assets/summary.png">
  <br/>
  
 
@@ -33,15 +34,7 @@ We believe that dataset analysis and summarization can be used as an elegant way
 
 In our implementation, almost all data attributes of available datasets are annotated using the [**AquaDiva ontology (ADOn)**](https://fusion.cs.uni-jena.de/fusion/activity/oapt) as the domain-specific ontology.
 
-<!--
-<img style="margin-left: auto; margin-right: auto; width: 20%" src="assets/onto.png">
- 
-
-* A *dataset (DS)* is defined as a tuple _<PD, MD>_ of *primary data (PD)* and *metadata (MD)* organized for a specific purpose | Less | Pretty
-* _PM_ represents the actual data organized according to a specific structure, called *data structure (DT)* | --- | ---
-*  *DT* consists of a set of *data attributes (i.e. _DT={da1, da2,...,dtn}_)* | `renders` | **nicely**
-* *DT* consists of a set of *data attributes (i.e. _DT={da1, da2,...,dtn}_)* | 2 | 3
--->
+<b/>
 
 ## Methodology
 
@@ -71,7 +64,7 @@ In our implementation, almost all data attributes of available datasets are anno
  
  * Proposing a method to transform the constructed new structure into a number of images, where a set of images is generated for each data attribute
  *  Figure 2 illustrates the ”Airtemperaturemean” data attributes from the” Weather and soil data monitoring” along with its annotation, data type (decimal), unit(Celsius), and 30 data points
- <img style=" margin-center: auto; margin-left: auto; margin-right: auto; width: 40%" src="assets/image_1.png">
+ <img style="margin-left: auto; margin-right: auto; width: 40%" src="assets/image_1.png">
  
 
 ### Classification
@@ -82,10 +75,7 @@ In our implementation, almost all data attributes of available datasets are anno
    * 70% of these were used for training and 30% for evaluation. 
    * The total number of _data attributes_ is 1300; 
    * the number of _data points_ within a dataset ranges from 300 (5 data attributes×60 tuples) to 12,000,000.
-<!--   
- <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/framework.png">
-<span style="color:red">some *blue* text</span> 
--->
+
 <br/>
  
  ## Prelimanry results
