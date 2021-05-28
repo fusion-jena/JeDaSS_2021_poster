@@ -12,16 +12,6 @@ Welcome to the website of the **JeDaSS** poster!
   <img style="margin-left: auto; margin-right: auto; width: 60%" src="assets/summary.png">
  <br/>
  
- <!--
-## Introduction
- * The ability to answer complex research questions within long-running and large-scale collaborative projects depends on the comprehensive set of data provided by their central repositories. 
- * In practice, however, finding data in such a repository to answer a specific question often proves to be a demanding task even for project scientists. 
- * In this poster, we aim to ease this task, thereby enabling cross-cutting analyses. 
- * To achieve that we introduce a new data analysis and summarization approach combining semantic web and machine learning approaches. 
- * In particular, the proposed approach makes use of the capability of machine learning to categorize a given dataset into a domain topic and to extract hidden links between its data attributes and data attributes from other datasets. 
- * The proposed approach has been developed in the frame of [CRC AquaDiva](http://www.aquadiva.uni-jena.de/) has been applied to its datasets.
--->
-<br/>
 
 
 ##  Motivation
@@ -75,6 +65,7 @@ In our implementation, almost all data attributes of available datasets are anno
  * Considering for each data attribute we consider the name, datatype, unit, data points attached to the data attribute as well as its semantic annotation. 
 
    <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/prep1.png">
+
  
  ### Image generation
  
@@ -82,7 +73,8 @@ In our implementation, almost all data attributes of available datasets are anno
  *  Figure 2 illustrates the ”Airtemperaturemean” data attributes from the” Weather and soil data monitoring” along with its annotation, data type (decimal), unit(Celsius), and 30 data points
  <img style=" margin-center: auto; margin-left: auto; margin-right: auto; width: 40%" src="assets/image_1.png">
  
- ### Classification
+
+### Classification
  
  * Currently using the [ResNet18 convolutional neural network](https://arxiv.org/pdf/1512.03385.pdf) to build the classification model
  *  Building and testing the proposed approach using datasets of the [AquaDivadata portal](addp.uni-jena.de).
@@ -120,8 +112,3 @@ In our implementation, almost all data attributes of available datasets are anno
 <!--
 <img style="margin-left: auto; margin-right: auto; width: 60%" src="assets/logo.png">
 -->
-<!--
-### News
-**23 Sep 2020**:
--->
-<!-- This is a comment in markdown -->
