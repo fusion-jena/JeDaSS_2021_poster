@@ -6,12 +6,18 @@ layout: home
 ---
 
 
-Welcome to the website of the **JeDaSS** project! 
+Welcome to the website of the **JeDaSS** poster! 
 
 # Towards Scientific Data Synthesis Using Deep Learning and Semantic Web
-
+<br/>
+ We aim to develop a new approach combining semantic web and machine learning to
+ * categorize a given dataset into a domain topic and,
+ * extract hidden links between its data attributes and data attributes from other datasets
+ 
+ <br/>
+ <!--
 ## Introduction
- * One of the added values of long-running and large-scale collaborative projects is the ability to answer complex research questions based on the comprehensive set of data provided by their central repositories. 
+ * The ability to answer complex research questions within long-running and large-scale collaborative projects depends on the comprehensive set of data provided by their central repositories. 
  * In practice, however, finding data in such a repository to answer a specific question often proves to be a demanding task even for project scientists. 
  * In this poster, we aim to ease this task, thereby enabling cross-cutting analyses. 
  * To achieve that we introduce a new data analysis and summarization approach combining semantic web and machine learning approaches. 
@@ -19,6 +25,7 @@ Welcome to the website of the **JeDaSS** project!
  * The proposed approach has been developed in the frame of [CRC AquaDiva](http://www.aquadiva.uni-jena.de/) has been applied to its datasets.
 
 <br/>
+-->
 
 ##  Motivation
 
@@ -102,9 +109,9 @@ In our implementation, almost all data attributes of available datasets are anno
 # Acknolwedgement
 
 * This work has been funded by the Deutsche Forschungsgemeinschaft([CRC AquaDiva](http://www.aquadiva.uni-jena.de/), Project 218627073)
-
-
-
+<!--
+<img style="margin-left: auto; margin-right: auto; width: 60%" src="assets/logo.png">
+-->
 <!--
 ### News
 **23 Sep 2020**:
