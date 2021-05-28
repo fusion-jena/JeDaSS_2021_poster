@@ -10,11 +10,11 @@ Welcome to the website of the **JeDaSS** poster!
 
 # Towards Scientific Data Synthesis Using Deep Learning and Semantic Web
 <br/>
-  __We aim to develop a new approach combining semantic web and machine learning to:__
+  _We aim to develop a new approach combining semantic web and machine learning to👇
   
  * categorize a given dataset into a domain topic and,
  * extract hidden links between its data attributes and data attributes from other datasets
-  
+  <br/>
   <img style="margin-left: auto; margin-right: auto; width: 50%" src="assets/summary.png">
  <br/>
  
@@ -44,10 +44,20 @@ We believe that dataset analysis and summarization can be used as an elegant way
 * _PM_ represents the actual data organized according to a specific structure, called *data structure (DT)*
 * *DT* consists of a set of *data attributes (i.e. _DT={da1, da2,...,dtn}_)*
 * Each data attribute has a name, datatype,(optional) unit, description, as well as annotation based on a domain ontology.
-* Each tuple in the primary data is a collection of data cells containing data values (called data points).
-* The metadata contains information about,e.g., the data owner, data curators, the methodology used to produce primary data, etc.
+* Each tuple in the primary data is a collection of data cells containing data values (called _data points_).
+* _MD_ contains information about,e.g., the data owner, data curators, the methodology used to produce primary data, etc.
 
-In our implementation, almost all data attributes of available datasets are annotated using the AquaDiva ontology (ADOn) as the domain-specific ontology.
+In our implementation, almost all data attributes of available datasets are annotated using the [**AquaDiva ontology (ADOn)**](https://fusion.cs.uni-jena.de/fusion/activity/oapt) as the domain-specific ontology.
+
+<!--
+<img style="margin-left: auto; margin-right: auto; width: 20%" src="assets/onto.png">
+ 
+
+* A *dataset (DS)* is defined as a tuple _<PD, MD>_ of *primary data (PD)* and *metadata (MD)* organized for a specific purpose | Less | Pretty
+* _PM_ represents the actual data organized according to a specific structure, called *data structure (DT)* | --- | ---
+*  *DT* consists of a set of *data attributes (i.e. _DT={da1, da2,...,dtn}_)* | `renders` | **nicely**
+* *DT* consists of a set of *data attributes (i.e. _DT={da1, da2,...,dtn}_)* | 2 | 3
+-->
 
 ## Methodology
 
