@@ -15,9 +15,9 @@ One of the added values of long-running and large-scale collaborative projects i
 
 <br/>
 
-## Motivation
+##  Motivation
 
- * The Collaborative Research Center (CRC) AquaDiva is a large collaborative project spanning a variety of domains including biology, geology, chemistry, and computer science with the common goal to better understand the Earth’s critical zone.
+ * The Collaborative Research Center (CRC) AquaDiva is a large collaborative project spanning a variety of domains including biology, geology, chemistry, and computer science with the common goal to better understand the Earth’s critical zone. 
  *  Datasets collected within AquaDiva, like those of many other cross-institutional, cross-domain research projects, are complex and difficult to reuse since they are highly diverse and heterogeneous.
  *  This limits the dataset accessibility to the few people who were either involved in creating the datasets or have spent a significant amount of time aiming to understand them.
  *  Furthermore, more time is needed to figure out the major theme of unfamiliar datasets.
@@ -31,14 +31,21 @@ We believe that dataset analysis and summarization can be used as an elegant way
 <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/prep1.png">
  
  ### Image generation
- <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/image_representation.png">
+ 
+ <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/image.png">
  
  ### Classification
  
- ### Prelimanry results
+ <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/framework.png">
  
+ <br/>
+ ## Prelimanry results
+  <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/result.png">
  
+<br/>
 
+## Availability
+ The resources related to the development of the proposed approach can be found at the [GitHub](https://github.com/fusion-jena/JeDaSS)
 
 <br/>
 
@@ -50,10 +57,9 @@ We believe that dataset analysis and summarization can be used as an elegant way
 <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/theteam.jpg">
 <br/>
 
-# Open position
+# Acknolwedgement
 
-* We are currently looking for a PhD to join our project. Official announcement will follow soon!
-
+* This work has been funded by the Deutsche Forschungsgemeinschaft([CRC AquaDiva](http://www.aquadiva.uni-jena.de/), Project 218627073)
 
 
 
