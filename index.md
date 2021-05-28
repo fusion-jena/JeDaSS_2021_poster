@@ -22,7 +22,7 @@ Welcome to the website of the **JeDaSS** project!
 
 ##  Motivation
 
- * The Collaborative Research Center (CRC) AquaDiva is a large collaborative project spanning a variety of domains including biology, geology, chemistry, and computer science with the common goal to better understand the Earth’s critical zone. 
+ * The Collaborative Research Center [(CRC) AquaDiva](http://www.aquadiva.uni-jena.de/) is a large collaborative project spanning a variety of domains including [biology](http://www.aquadiva.uni-jena.de/Projects.html), [geology](http://www.aquadiva.uni-jena.de/D03.html), [chemistry](http://www.aquadiva.uni-jena.de/C03.html), and [computer science](http://www.aquadiva.uni-jena.de/D01.html) with the common goal to better understand the Earth’s critical zone. 
  *  Datasets collected within AquaDiva, like those of many other cross-institutional, cross-domain research projects, are complex and difficult to reuse since they are highly diverse and heterogeneous.
  *  This limits the dataset accessibility to the few people who were either involved in creating the datasets or have spent a significant amount of time aiming to understand them.
  *  Furthermore, more time is needed to figure out the major theme of unfamiliar datasets.
@@ -66,7 +66,7 @@ In our implementation, almost all data attributes of available datasets are anno
  
  * Proposing a method to transform the constructed new structure into a number of images, where a set of images is generated for each data attribute
  *  Figure 2 illustrates the ”Airtemperaturemean” data attributes from the” Weather and soil data monitoring” along with its annotation, data type (decimal), unit(Celsius), and 30 data points
- <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/image_1.png">
+ <img style=" margin-center: auto; margin-left: auto; margin-right: auto; width: 80%" src="assets/image_1.png">
  
  ### Classification
  
@@ -96,7 +96,7 @@ In our implementation, almost all data attributes of available datasets are anno
 * [Hamdi Hamed](https://fusion.cs.uni-jena.de/fusion/members/hamdi-Hamed/), Heinz-Nixdorf  Chair for Distributed Information Systems, University of Jena
 * [Birgitta König-Ries](https://fusion.cs.uni-jena.de/fusion/members/birgitta-konig-ries/), Heinz-Nixdorf  Chair for Distributed Information Systems, University of Jena
 
-<img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/theteam.png">
+<img style="margin-left: auto; margin-right: auto; width: 60%" src="assets/people.png">
 <br/>
 
 # Acknolwedgement
