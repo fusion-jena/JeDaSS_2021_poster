@@ -70,9 +70,16 @@ In our implementation, almost all data attributes of available datasets are anno
  
  ### Classification
  
+ * Currently using the [ResNet18 convolutional neural network](https://arxiv.org/pdf/1512.03385.pdf) to build the classification model
+ *  Building and testing the proposed approach using datasets of the [AquaDivadata portal](addp.uni-jena.de).
+   * Using 114 datasets representing different domain topics, such as weather monitoring, groundwater hydrochemistry, gene abundance, or soil physical parameters
+   * 70% of these were used for training and 30% for evaluation. 
+   * The total number of _data attributes_ is 1300; 
+   * the number of _data points_ within a dataset ranges from 300 (5 data attributes×60 tuples) to 12,000,000.
+   
  <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/framework.png">
- 
- <br/>
+<span style="color:red">some *blue* text</span> 
+<br/>
  
  ## Prelimanry results
   <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/result.png">
@@ -89,7 +96,7 @@ In our implementation, almost all data attributes of available datasets are anno
 * [Hamdi Hamed](https://fusion.cs.uni-jena.de/fusion/members/hamdi-Hamed/), Heinz-Nixdorf  Chair for Distributed Information Systems, University of Jena
 * [Birgitta König-Ries](https://fusion.cs.uni-jena.de/fusion/members/birgitta-konig-ries/), Heinz-Nixdorf  Chair for Distributed Information Systems, University of Jena
 
-<img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/theteam.jpg">
+<img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/theteam.png">
 <br/>
 
 # Acknolwedgement
