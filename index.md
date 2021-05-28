@@ -10,11 +10,13 @@ Welcome to the website of the **JeDaSS** poster!
 
 # Towards Scientific Data Synthesis Using Deep Learning and Semantic Web
 <br/>
- We aim to develop a new approach combining semantic web and machine learning to
- * categorize a given dataset into a domain topic and,
- * extract hidden links between its data attributes and data attributes from other datasets
- 
+ We aim to develop a new approach combining semantic web and machine learning to:
+  * categorize a given dataset into a domain topic and,
+  * extract hidden links between its data attributes and data attributes from other datasets
+  
+  <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/summary.png">
  <br/>
+ 
  <!--
 ## Introduction
  * The ability to answer complex research questions within long-running and large-scale collaborative projects depends on the comprehensive set of data provided by their central repositories. 
@@ -30,7 +32,7 @@ Welcome to the website of the **JeDaSS** poster!
 ##  Motivation
 
  * The Collaborative Research Center [(CRC) AquaDiva](http://www.aquadiva.uni-jena.de/) is a large collaborative project spanning a variety of domains including [biology](http://www.aquadiva.uni-jena.de/Projects.html), [geology](http://www.aquadiva.uni-jena.de/D03.html), [chemistry](http://www.aquadiva.uni-jena.de/C03.html), and [computer science](http://www.aquadiva.uni-jena.de/D01.html) with the common goal to better understand the Earth’s critical zone. 
- *  Datasets collected within AquaDiva, like those of many other cross-institutional, cross-domain research projects, are complex and difficult to reuse since they are highly diverse and heterogeneous.
+ *  Datasets collected within [AquaDiva](addp.uni-jena.de), like those of many other cross-institutional, cross-domain research projects, are complex and difficult to reuse since they are highly diverse and heterogeneous.
  *  This limits the dataset accessibility to the few people who were either involved in creating the datasets or have spent a significant amount of time aiming to understand them.
  *  Furthermore, more time is needed to figure out the major theme of unfamiliar datasets.
  
@@ -83,9 +85,10 @@ In our implementation, almost all data attributes of available datasets are anno
    * 70% of these were used for training and 30% for evaluation. 
    * The total number of _data attributes_ is 1300; 
    * the number of _data points_ within a dataset ranges from 300 (5 data attributes×60 tuples) to 12,000,000.
-   
+<!--   
  <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/framework.png">
 <span style="color:red">some *blue* text</span> 
+-->
 <br/>
  
  ## Prelimanry results
