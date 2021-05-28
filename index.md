@@ -10,12 +10,33 @@ Welcome to the website of the **JeDaSS** project!
 
 # Towards Scientific Data Synthesis Using Deep Learning and Semantic Web
 
-# Abstract
+## Abstract
 One of the added values of long-running and large-scale collaborative projects is the ability to answer complex research questions based on the comprehensive set of data provided by their central repositories. In practice, however, finding data in such a repository to answer a specific question often proves to be a demanding task even for project scientists. In this paper, we aim to ease this task, thereby enabling cross-cutting analyses. To achieve that we introduce a new data analysis and summarization approach combining semantic web and machine learning approaches. In particular, the proposed approach makes use of the capability of machine learning to categorize a given dataset into a domain topic and to extract hidden links between its data attributes and data attributes from other datasets. The proposed approach has been developed in the frame of [CRC AquaDiva](http://www.aquadiva.uni-jena.de/) has been applied to its datasets.
 
-The project collaborates closely with other initiatives that work on mapping and organizing scientific knowledge, such as the [hi-knowledge](https://hi-knowledge.org/) project.
 
-Our interdisciplinary team brings together people from Natural Language Processing, Biology, Semantic Web and Knowledge Representation. This is us:
+<br/>
+## Motivation
+
+ * The Collaborative Research Center (CRC) AquaDiva is a large collaborative project spanning a variety of domains including biology, geology, chemistry, and computer science with the common goal to better understand the Earth’s critical zone.
+ *  Datasets collected within AquaDiva, like those of many other cross-institutional, cross-domain research projects, are complex and difficult to reuse since they are highly diverse and heterogeneous.
+ *  This limits the dataset accessibility to the few people who were either involved in creating the datasets or have spent a significant amount of time aiming to understand them.
+ *  Furthermore, more time is needed to figure out the major theme of unfamiliar datasets.
+ 
+We believe that dataset analysis and summarization can be used as an elegant way to provide a concise overview of an entire dataset.
+## Methodology
+  
+ ### Data preparation
+  
+  
+<img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/pre1.jpg">
+ 
+ ### Image generation
+ 
+ ### Classification
+ 
+ ### Prelimanry results
+ 
+ 
 
 
 <br/>
