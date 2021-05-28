@@ -23,6 +23,17 @@ One of the added values of long-running and large-scale collaborative projects i
  *  Furthermore, more time is needed to figure out the major theme of unfamiliar datasets.
  
 We believe that dataset analysis and summarization can be used as an elegant way to provide a concise overview of an entire dataset.
+
+## Definitions
+* A *dataset (DS)* is defined as a tuple of *primary data (PD)* and *metadata (MD)* organized for a specific purpose.
+* _PM_ represents the actual data organized according to a specific structure, called *data structure*
+* Each data structure consists of a set of data attributes,
+* Each data attribute has a name, datatype,(optional) unit, description, as well as annotation based on a domain ontology.
+* Each tuple in the primary data is a collection of data cells containing data values (called data points).
+* The metadata contains information about,e.g., the data owner, data curators, the methodology used to produce primary data, etc.
+
+In our implementation, almost all data attributes of available datasets are annotated using the AquaDiva ontology (ADOn) as the domain-specific ontology.
+
 ## Methodology
   <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/JeDaSS.png">
   
@@ -39,6 +50,7 @@ We believe that dataset analysis and summarization can be used as an elegant way
  <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/framework.png">
  
  <br/>
+ 
  ## Prelimanry results
   <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/result.png">
  
