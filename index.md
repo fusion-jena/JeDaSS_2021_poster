@@ -1,9 +1,3 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-# #![alt text](/assets/profilesmall.jpg)  
-layout: home
----
 
 
 Welcome to the website of the **JeDaSS** poster! 
@@ -15,7 +9,7 @@ Welcome to the website of the **JeDaSS** poster!
  * categorize a given dataset into a domain topic and,
  * extract hidden links between its data attributes and data attributes from other datasets
   <br/>
-  <img style="margin-left: auto; margin-right: auto; width: 50%" src="assets/summary.png">
+  <img style="margin-left: auto; margin-right: auto; width: 60%" src="assets/summary.png">
  <br/>
  
  <!--
@@ -26,9 +20,9 @@ Welcome to the website of the **JeDaSS** poster!
  * To achieve that we introduce a new data analysis and summarization approach combining semantic web and machine learning approaches. 
  * In particular, the proposed approach makes use of the capability of machine learning to categorize a given dataset into a domain topic and to extract hidden links between its data attributes and data attributes from other datasets. 
  * The proposed approach has been developed in the frame of [CRC AquaDiva](http://www.aquadiva.uni-jena.de/) has been applied to its datasets.
-
-<br/>
 -->
+<br/>
+
 
 ##  Motivation
 
@@ -86,7 +80,7 @@ In our implementation, almost all data attributes of available datasets are anno
  
  * Proposing a method to transform the constructed new structure into a number of images, where a set of images is generated for each data attribute
  *  Figure 2 illustrates the ”Airtemperaturemean” data attributes from the” Weather and soil data monitoring” along with its annotation, data type (decimal), unit(Celsius), and 30 data points
- <img style=" margin-center: auto; margin-left: auto; margin-right: auto; width: 80%" src="assets/image_1.png">
+ <img style=" margin-center: auto; margin-left: auto; margin-right: auto; width: 40%" src="assets/image_1.png">
  
  ### Classification
  
