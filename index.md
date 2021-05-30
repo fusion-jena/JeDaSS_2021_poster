@@ -10,7 +10,7 @@ Welcome to the website of the **JeDaSS** poster @[ESWC_2021](https://2021.eswc-c
  * extract hidden links between its data attributes and data attributes from other datasets
  
   <br/>
-  <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/summary_1.png">
+  <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/summary1.png">
  <br/>
  
 
@@ -63,18 +63,18 @@ In our implementation, almost all data attributes of available datasets are anno
  ### Image generation
  
  * Proposing a method to transform the constructed new structure into a number of images, where a set of images is generated for each data attribute
- *  Figure 2 illustrates the ”Airtemperaturemean” data attributes from the” Weather and soil data monitoring” along with its annotation, data type (decimal), unit(Celsius), and 30 data points
- <img style="margin-left: auto; margin-right: auto; width: 40%" src="assets/image_1.png">
+ *  As shown below in the Figure,  the *”Airtemperaturemean”* data attributes from the *” Weather and soil data monitoring”* along with its annotation, data type (decimal), unit(Celsius), and 30 data points
+ <img style="margin-left: auto; margin-right: auto; width: 50%" src="assets/conv1.png">
  
 
 ### Classification
  
  * Currently using the [ResNet18 convolutional neural network](https://arxiv.org/pdf/1512.03385.pdf) to build the classification model
- *  Building and testing the proposed approach using datasets of the [AquaDivadata portal](addp.uni-jena.de).
+ * Building and testing the proposed approach using datasets of the [AquaDiva data portal](addp.uni-jena.de).
    * Using 114 datasets representing different domain topics, such as weather monitoring, groundwater hydrochemistry, gene abundance, or soil physical parameters
-   * 70% of these were used for training and 30% for evaluation. 
-   * The total number of _data attributes_ is 1300; 
-   * the number of _data points_ within a dataset ranges from 300 (5 data attributes×60 tuples) to 12,000,000.
+   * 70% of these were used for training and 30% for evaluation
+   * the total number of _data attributes_ is 1300
+   * the number of _data points_ within a dataset ranges from 300 (5 data attributes×60 tuples) to 12,000,000
 
 <br/>
  
