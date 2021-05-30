@@ -2,7 +2,7 @@
 
 Welcome to the website of the **JeDaSS** poster @[ESWC_2021](https://2021.eswc-conferences.org/)! 
 
-# Towards Scientific Data Synthesis Using Deep Learning and Semantic Web
+# **Towards Scientific Data Synthesis Using Deep Learning and Semantic Web**
 <br/>
   _We aim to develop a new approach combining semantic web and machine learning to_👇
   
@@ -10,7 +10,7 @@ Welcome to the website of the **JeDaSS** poster @[ESWC_2021](https://2021.eswc-c
  * extract hidden links between its data attributes and data attributes from other datasets
  
   <br/>
-  <img style="margin-left: auto; margin-right: auto; width: 70%" src="assets/summary.png">
+  <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/summary.png">
  <br/>
  
 
