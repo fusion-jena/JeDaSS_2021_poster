@@ -10,7 +10,7 @@ Welcome to the website of the **JeDaSS** poster @[ESWC_2021](https://2021.eswc-c
  * extract hidden links between its data attributes and data attributes from other datasets
  
   <br/>
-  <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/summary1.png">
+  <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/summary.png">
  <br/>
  
 
