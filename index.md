@@ -26,9 +26,9 @@ We believe that dataset analysis and summarization can be used as an elegant way
 
 ## Definitions
 * A *dataset (DS)* is defined as a tuple _<PD, MD>_ of *primary data (PD)* and *metadata (MD)* organized for a specific purpose.
-* _PM_ represents the actual data organized according to a specific structure, called *data structure (DT)*
-* *DT* consists of a set of *data attributes (i.e. _DT={da1, da2,...,dtn}_)*
-* Each data attribute has a name, datatype,(optional) unit, description, as well as annotation based on a domain ontology.
+* _PM_ represents actual data organized according to a specific structure, called *data structure (DT)*
+* *DT* consists of a set of *data attributes (i.e. DT={da1, da2,...,dtn})*
+* Each data attribute has a _name_, _datatype_, _(optional) unit_, _description_, as well as **annotation** based on a domain ontology.
 * Each tuple in the primary data is a collection of data cells containing data values (called _data points_).
 * _MD_ contains information about,e.g., the data owner, data curators, the methodology used to produce primary data, etc.
 
@@ -46,8 +46,8 @@ In our implementation, almost all data attributes of available datasets are anno
   <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/JeDaSS.png">
  
  * The proposed approach has two main phases:
-   * _off-line_ to train and build a classification model using supervised deep learning using convolution layers and
-   * _on-line_ making use of the pre-trained model to classify datasets into the learned categories.
+   * _off-line_: to train and build a classification model using supervised deep learning using convolution layers and
+   * _on-line_: making use of the pre-trained model to classify datasets into the learned categories.
  
  <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/framework.png">
 
@@ -55,7 +55,7 @@ In our implementation, almost all data attributes of available datasets are anno
  
  * Proposing a new structure capturing several features from the _dataset_ into a single container
  * As _data attributes_ are the most important parts of the _dataset_, gathering all information related to _data attributes_
- * Considering for each data attribute we consider the name, datatype, unit, data points attached to the data attribute as well as its semantic annotation. 
+ * Considering for each data attribute  the name, datatype, unit, data points attached to the data attribute as well as its semantic annotation. 
 
    <img style="margin-left: auto; margin-right: auto; width: 80%" src="assets/prep1.png">
 
